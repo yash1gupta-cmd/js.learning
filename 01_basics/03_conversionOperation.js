@@ -30,8 +30,53 @@
  let somenumber = 19
 
  let Stringnumber = String(somenumber);
- console.log(Stringnumber);
- console.log(typeof Stringnumber);
+//  console.log(Stringnumber);
+//  console.log(typeof Stringnumber);
+
+//***operations */
+
+let value = 3
+let Negvalue = -value
+// console.log(Negvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+let Str1 = "hello"
+let Str2 = " yash"
+
+let str3 = Str1 + Str2 ;
+
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log( (3+ 4 )* 5 % 3);
+
+// console.log(+true); 
+
+let gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

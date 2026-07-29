@@ -7,6 +7,7 @@ let myDate = new Date()
 // console.log(myDate.toJSON());
 // console.log(myDate.toLocaleDateString());
 // console.log(myDate.toTimeString());
+// console.log(myDate.getDay());
 // console.log(typeof myDate);
 
 // let myCreatedDate = new Date(2026, 0 , 29,  )
@@ -31,9 +32,9 @@ let newDate = new Date()
 // console.log(newDate.getDay());
 // `${newDate.getDay()}`
 
-console.log(newDate.toLocaleString('default', {
-    weekday: "long"
-}));
+// console.log(newDate.toLocaleString('default', {
+//     weekday: "long"
+// }));
 
 
 

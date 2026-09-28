@@ -30,5 +30,22 @@
         addOptiLanguage("red")
 
         // EDIT 
+        const secLang  = document.querySelector("li:nth-child(2)")
+        // if any confuion in nth child than use console log () 
+        console.log(secLang);
+        
+        // secLang.innerHTML = "mojo"
+        const newLi = document.createElement("li")
+        newLi.textContent = "red"
+        secLang.replaceWith(newLi)
+        
+        // EDIT 
+        const firstLang = document.querySelector("li:first-child")
+        firstLang.outerHTML = "<li>TypeScript</li>"
+
+        // remove 
+        const lastLang = document.querySelector("li:last-child")
+        lastLang.remove()
+
     </script>
 </html>
